@@ -1,11 +1,14 @@
+$even-color: #CCC;
+$odd-color: #FFF;
+
 section{
   min-height: 100vh;
 
   &:nth-child(even) {
-    background: #CCC
+    background: $even-color;
   }
 
   &:nth-child(odd) {
-    background: #FFF
+    background: $odd-color;
   }
 }
