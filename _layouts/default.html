@@ -1,16 +1,12 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="
-    {{ "/assets/css/styles.css" | absolute_url }}">
-
-    {% seo %}
-  </head>
+   {% include layout/head.html %}
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    {% include layout/navigation.html %}
+    <main>
+      {{ content }}
+    </main>
+
 
      <script src="
     {{ "/assets/javascripts/main.js" | absolute_url }}"></script>

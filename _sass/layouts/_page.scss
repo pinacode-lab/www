@@ -1,3 +1,11 @@
 section{
   min-height: 100vh;
+
+  &:nth-child(even) {
+    background: #CCC
+  }
+
+  &:nth-child(odd) {
+    background: #FFF
+  }
 }
