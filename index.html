@@ -2,7 +2,7 @@
 title: Home
 ---
 {% for section in site.data.sections %}
-  <section>
+  <section id="{{ section.name }}">
     {% include sections/{{section.name}}.html info= section %}
   </section>
 {% endfor %}
