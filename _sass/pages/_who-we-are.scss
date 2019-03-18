@@ -1,6 +1,10 @@
 #who-we-are{
+  .wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   .avatars{
-    display:flex;
-    justify-content: space-between;
+    flex-grow: 1;
   }
 }
