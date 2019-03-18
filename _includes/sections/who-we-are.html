@@ -1,4 +1,13 @@
 <div class="container">
   <h1>{{include.info.title}}</h1>
   <p>{{include.info.body}}</p>
+   <ul>
+  {% for staff in site.data.staff %}
+    <li>
+      {% include components/avatar.html
+            name=staff.name
+            image=staff.image%}
+    </li>
+  {% endfor %}
+  </ul>
 </div>
