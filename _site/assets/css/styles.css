@@ -2681,3 +2681,9 @@ section h1 { margin-bottom: 24px; }
 
 #who-we-are .wrapper { height: 100%; display: flex; flex-direction: column; }
 #who-we-are .avatars { flex-grow: 1; }
+
+#about-us { min-height: 0; padding: 64px 32px; }
+#about-us .wrapper { display: flex; flex-direction: column; height: 100%; }
+#about-us .info { flex-grow: 1; }
+#about-us .info svg { width: 300px; height: 100%; margin-bottom: 32px; }
+#about-us .info p { margin: 0; }
