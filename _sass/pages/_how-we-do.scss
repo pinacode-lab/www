@@ -1,4 +1,11 @@
-.pineapple-circle {
-  flex-grow: 1;
-  height: 405px;
+#how-we-do-it{
+  .wrapper{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+  .pineapple-circle {
+    flex-grow: 1;
+  }
 }

@@ -2682,4 +2682,5 @@ section h1 { margin-bottom: 24px; }
 #who-we-are .wrapper { height: 100%; display: flex; flex-direction: column; }
 #who-we-are .avatars { flex-grow: 1; }
 
-.pineapple-circle { flex-grow: 1; height: 405px; }
+#how-we-do-it .wrapper { height: 100%; display: flex; flex-direction: column; }
+#how-we-do-it .pineapple-circle { flex-grow: 1; }
