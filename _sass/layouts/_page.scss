@@ -5,6 +5,7 @@ $dark-theme-font-color: $white;
 section{
   min-height: 100vh;
   position: relative;
+  padding: $padding*2;
 
   &:nth-child(even) {
     background: $light-theme-bg-color;
@@ -16,7 +17,6 @@ section{
   }
 
   p{
-    margin: 0;
     font-weight: 300;
   }
 }
