@@ -2681,3 +2681,5 @@ section h1 { margin-bottom: 24px; }
 
 #who-we-are .wrapper { height: 100%; display: flex; flex-direction: column; }
 #who-we-are .avatars { flex-grow: 1; }
+
+.round-pineapple { padding-top: 55px; }
