@@ -2676,7 +2676,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 section { align-items: stretch; display: flex; min-height: 100vh; padding: 32px; position: relative; word-wrap: break-word; }
 section:nth-child(even) { background: #E7F8F5; }
 section:nth-child(odd) { background: #00B894; color: #FFF; }
-section p { font-weight: 300; }
+section p { font-weight: 100; }
 section h1 { margin-bottom: 24px; }
 
 #who-we-are .wrapper { height: 100%; display: flex; flex-direction: column; }
