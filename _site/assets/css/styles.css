@@ -2668,7 +2668,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   .table-dark { color: inherit; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
-.card { background: #FFF; min-height: 25vh; min-width: 25vh; border-radius: 25px; box-shadow: 2px 4px 12px #888888; margin: 16px; }
+.card { background: #FFF; min-height: 240px; min-width: 240px; border-radius: 25px; box-shadow: 2px 4px 12px #888888; margin: 16px 24px; padding: 16px 24px; }
 
 section { min-height: 100vh; position: relative; }
 section:nth-child(even) { background: #E7F8F5; }
@@ -2676,3 +2676,5 @@ section:nth-child(odd) { background: #00B894; color: #FFF; }
 section p { margin: 0; font-weight: 300; }
 
 #what-we-do { min-height: 100vh; }
+
+.tech-image { max-height: 200px; min-height: 200px; max-width: 200px; min-width: 200px; margin: 8px; }
