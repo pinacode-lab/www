@@ -1,0 +1,22 @@
+$light-theme-bg-color: $clear-day;
+$dark-theme-bg-color: $persia-green;
+$dark-theme-font-color: $white;
+
+section{
+  min-height: 100vh;
+  position: relative;
+
+  &:nth-child(even) {
+    background: $light-theme-bg-color;
+  }
+
+  &:nth-child(odd) {
+    background: $dark-theme-bg-color;
+    color: $dark-theme-font-color;
+  }
+
+  p{
+    margin: 0;
+    font-weight: 300;
+  }
+}
