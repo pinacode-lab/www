@@ -1,6 +1,3 @@
-github:
-  source:
-    branch: master
 defaults:
   - scope:
       path: ""
