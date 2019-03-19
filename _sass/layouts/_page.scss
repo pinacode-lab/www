@@ -3,12 +3,8 @@ $dark-theme-bg-color: $persia-green;
 $dark-theme-font-color: $white;
 
 section{
-  align-items: stretch;
-  display: flex;
   min-height: 100vh;
-  padding: $padding*2;
   position: relative;
-  word-wrap: break-word;
 
   &:nth-child(even) {
     background: $light-theme-bg-color;
@@ -20,10 +16,7 @@ section{
   }
 
   p{
-    font-weight: 100;
-  }
-
-  h1{
-    margin-bottom: $padding*1.5;
+    margin: 0;
+    font-weight: 300;
   }
 }

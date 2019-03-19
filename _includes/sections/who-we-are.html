@@ -1,15 +1,4 @@
 <div class="container">
-  <div class="wrapper">
-    <h1>{{include.info.title}}</h1>
-    <p>{{include.info.body}}</p>
-    <div class="row align-items-center avatars">
-      {% for staff in site.data.staff %}
-        <div class="col">
-          {% include components/avatar.html
-                name=staff.name
-                image=staff.image%}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+  <h1>{{include.info.title}}</h1>
+  <p>{{include.info.body}}</p>
 </div>
