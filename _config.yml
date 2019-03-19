@@ -1,4 +1,4 @@
-url: "https://pinacodelab.com"
+
 defaults:
   - scope:
       path: ""
